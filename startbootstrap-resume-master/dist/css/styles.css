@@ -3798,7 +3798,7 @@ textarea.form-control-lg {
 }
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
-  color: var(--bs-navbar-active-color);
+  color: #e9383f; 
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -10979,22 +10979,27 @@ section.resume-section .resume-section-content {
 .nav-link-internal {
     background-color: #ffc107; /* Couleur de fond pour les liens internes (jaune doux) */
     color: #212529; /* Couleur du texte pour les liens internes (noir) */
+    border: 2px solid #000; /* Contour noir autour des liens internes */
+    border-radius: 50px; /* Arrondi des coins, optionnel */
 }
 
 .nav-link-internal:hover, .nav-link-internal:focus {
-    background-color: #fdd835; /* Couleur de fond au survol pour les liens internes (jaune vif) */
-    color: #212529; /* Couleur du texte au survol pour les liens internes (noir) */
+    background-color: #ecec53; /* Couleur de fond au survol pour les liens internes (jaune vif) */
+    color: #cd5c5c; /* Couleur du texte au survol pour les liens internes (blanc) */
 }
 
 .nav-link-external {
-    background-color: #ff9800; /* Couleur de fond pour les liens externes (jaune doré) */
-    color: #fff; /* Couleur du texte pour les liens externes (blanc) */
+    background-color: #ffc107; /* Couleur de fond pour les liens externes (jaune doré) */
+    color: #212529; /* Couleur du texte pour les liens externes (noir) */
+    border: 2px solid #000; /* Contour noir autour des liens externes */
+    border-radius: 15px; /* Arrondi des coins, optionnel */
 }
 
 .nav-link-external:hover, .nav-link-external:focus {
-    background-color: #fb8c00; /* Couleur de fond au survol pour les liens externes (jaune plus foncé) */
-    color: #fff; /* Couleur du texte au survol pour les liens externes (blanc) */
+    background-color: #ecec53; /* Couleur de fond au survol pour les liens externes (jaune plus foncé) */
+    color: #cd5c5c; /* Couleur du texte au survol pour les liens externes (blanc) */
 }
+
 
 
 /* Styles pour les icônes de trophée */
