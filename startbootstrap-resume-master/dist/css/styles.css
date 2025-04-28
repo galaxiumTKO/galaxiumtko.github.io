@@ -11029,3 +11029,8 @@ section.resume-section .resume-section-content {
 .fa-ul li {
   margin-bottom: 15px; /* Ajustez cette valeur pour espacer les éléments de la liste */
 }
+
+.grand-texte {
+  font-size: 20px; /* Vous pouvez ajuster la taille ici */
+  line-height: 1.5; /* Optionnel : pour améliorer l'espacement entre les lignes */
+}
